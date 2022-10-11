@@ -1,2 +1,2 @@
 #!/bin/bash
-ruby -e 'BEGIN{print 10 * 16}'
+echo obase=10 ibase=16
