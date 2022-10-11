@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 10 to 16
+awk 'BEGIN{P=10 * 16; 	printf "%0.2f", p}'
