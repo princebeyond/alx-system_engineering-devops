@@ -1,2 +1,2 @@
 #!/bin/bash
-bc base 10 to 16
+echo base 10 to 16
