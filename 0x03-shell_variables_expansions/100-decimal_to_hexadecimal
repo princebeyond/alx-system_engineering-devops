@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'BEGIN{P=10 * 16; 	printf "%0.2f", p}'
+ruby -e 'BEGIN{print 10 * 16}'
