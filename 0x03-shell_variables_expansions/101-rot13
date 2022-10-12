@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n '#!/ova/onfu\nrpub -a "NFPVV"'
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
