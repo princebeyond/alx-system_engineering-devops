@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type f -regex './[A-Z].*' -exec mv {} /tmp/u/ \+
+for f in [A-Z]* do [ -f "$f" ] && mv "$f" /tmp/u done
