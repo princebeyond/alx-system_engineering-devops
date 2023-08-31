@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d -1 .[0-9A-Za-z]* */ | sort -d
+ls -A1 -d .[0-9A-Za-z]* */ | sort -d | tr '\n' ',' | sed 's/,$/\n/'
