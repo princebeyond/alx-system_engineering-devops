@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 iacta | tee -a iacta
+printf '$-1\n,p\n' | ed -s iacta >> iacta
