@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -e '$!d' -e 'n' iacta >> iacta
+tail -n 1 iacta | tee -a iacta
