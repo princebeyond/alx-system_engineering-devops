@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# a Bash script that displays the time for 12 hours and 59 minutes
+
+hour=0
+while ((hour <= 12))
+do
+	case $hour in
+	0)
+		echo "Hour: 0"
+		;;
+	1)
+		echo "Hour: 1"
+                ;;
+	2)
+                echo "Hour: 2"
+                ;;
+	3)
+            echo "Hour: 3"
+            ;;
+        4)
+            echo "Hour: 4"
+            ;;
+        5)
+            echo "Hour: 5"
+            ;;
+        6)
+            echo "Hour: 6"
+            ;;
+        7)
+            echo "Hour: 7"
+            ;;
+        8)
+            echo "Hour: 8"
+            ;;
+        9)
+            echo "Hour: 9"
+            ;;
+        10)
+            echo "Hour: 10"
+            ;;
+        11)
+            echo "Hour: 11"
+            ;;
+        12)
+            echo "Hour: 12"
+            ;;
+    esac
+
+    min=1
+
+    while ((min <= 59)); do
+	# ((min++))
+        echo "$min"
+       ((min++))
+    done
+
+    ((hour++))
+done
