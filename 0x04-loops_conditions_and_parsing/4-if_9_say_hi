@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# print output 10 time but prits hi on the 9th
+while ((count < 10))
+do
+	echo "Best School"
+	((count++))
+	if ((count == 9)); then
+		echo "Hi"
+	fi
+done

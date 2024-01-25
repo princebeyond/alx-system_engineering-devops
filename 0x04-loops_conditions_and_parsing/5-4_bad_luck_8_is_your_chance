@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# print the output 10 times except 4th and 8
+
+while ((count < 10))
+do
+	((count++))
+	if ((count == 4)); then
+		echo "bad luck"
+	elif ((count == 8)); then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+done
